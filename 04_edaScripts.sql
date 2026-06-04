@@ -1,4 +1,14 @@
---1.source_Continent
+/*
+04_edaScripts.sql
+
+Exploratory queries to understand/source distinct values.
+
+Note: These queries currently reference databases like [computer_staging] and
+[computer_shops]. Update these database names to match your environment
+(for example [stg_retail_sales]) once your staging tables exist.
+*/
+
+-- 1.source_Continent
 SELECT
     DISTINCT [Continent]
 FROM

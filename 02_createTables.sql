@@ -1,4 +1,13 @@
 /*
+02_createTables.sql
+
+Creates dimension tables in the data warehouse database.
+*/
+
+USE dwh_retail_sales;
+GO
+
+/*
  =========================================================
  DIM_CONTINENT
  =========================================================
